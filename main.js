@@ -7,9 +7,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const modalVideo = document.querySelector("#movieModal iframe");
 
   const movies = [
-    { title: "Batman", rating: "⭐️ 9.0/10", img: "bg9.png" },
-    { title: "Chainsaw Man S2", rating: "⭐️ 8.8/10", img: "bg10.png" },
-    { title: "Jujutsu Kaisen", rating: "⭐️ 8.6/10", img: "bg7.png" },
+    { title: "Batman", rating: "⭐️ 9.0/10", img: "https://drive.google.com/file/d/1VwL8-s5erE0xnTWl4BgDqLjLISiIgd8E/view?usp=sharing" },
+    { title: "Chainsaw Man S2", rating: "⭐️ 8.8/10", img: "https://drive.google.com/file/d/1aQVcjKeHFxw2PDifJSb2hUowYP6IkFfR/view?usp=drive_link" },
+    { title: "Jujutsu Kaisen", rating: "⭐️ 8.6/10", img: "https://drive.google.com/file/d/1Mh0JWXrX9LbFr3S5FJ_COAoIJIRIfrSP/view?usp=drive_link" },
   ];
 
   function renderMovies(list) {
@@ -55,5 +55,6 @@ document.addEventListener("DOMContentLoaded", () => {
     modalVideo.src = "";
   });
 });
+
 
 
