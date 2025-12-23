@@ -6,12 +6,17 @@
 }
 
 body {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
   display: flex;
   flex-direction: column;
   gap: 100px;
-  font-family: 'Coming Soon', cursive, Arial, sans-serif;
   color: #ffffff;
+  background-color: #000;
 }
+
 .nav-item {
     transition: 0.3s all ease;
 }
@@ -23,11 +28,12 @@ body {
     display: inline-block;
     padding: 5px 20px;
     background: #ffffff;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(5px);
     color: #000000;
     border: rgba(255, 255, 255, 0.078) 2px solid;
     border-radius: 50px;
     text-decoration: none;
+    z-index: 2;
     transition: 0.3s;
 }
 .btn:hover {
@@ -67,10 +73,11 @@ button.btn.btn-outline-light.watch-btn {
     background-color: #ffffff4e;
     border: 2px solid rgba(255, 255, 255, 0.177);
     width: 100px;
+    z-index: 5;
+    transition: 0.5s all ease;
 }
 button.btn.btn-outline-light.watch-btn:hover {
     background-color: #ffc71d;
-    border: 2px solid rgba(255, 255, 255, 0.11);
     transform: translateY(-5px);
 }
 
